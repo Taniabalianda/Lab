@@ -1,82 +1,82 @@
 package ua.lviv.iot.goods.models;
 
 public class GoodsForHome {
-    private GoodsForHomeType goodsForHomeType;
-    private MaterialOfGoods materialOfGoods;
-    private int price;
-    private int widthOfGoods;
-    private int lenghtOfGoods;
+	private GoodsForHomeType goodsForHomeType;
 
-    public GoodsForHome() {
+	private MaterialOfGoods materialOfGoods;
 
-    }
+	private int price;
 
-    public GoodsForHome(
-            final GoodsForHomeType goodsForHomeType,
-            final MaterialOfGoods materialOfGoods,
-            final int price,
-            final int widthOfGoods,
-            final int lenghtOfGoods) {
+	private int widthOfGoods;
 
-        this.goodsForHomeType = goodsForHomeType;
-        this.materialOfGoods = materialOfGoods;
-        this.price = price;
-        this.widthOfGoods = widthOfGoods;
-        this.lenghtOfGoods = lenghtOfGoods;
-    }
+	private int lenghtOfGoods;
 
-    @Override
-    public String toString() {
-        return "GoodsFotHome [goodsForHomeType=" + goodsForHomeType + ", materialOfGoods=" + materialOfGoods
-                + ", price=" + price + ", widthOfGoods=" + widthOfGoods + ", lenghtOfGoods=" + lenghtOfGoods + "]";
-    }
+	public GoodsForHome() {
 
-    public GoodsForHomeType getGoodsForHomeType() {
+	}
 
-        return goodsForHomeType;
-    }
+	public GoodsForHome(final GoodsForHomeType goodsForHomeType, final MaterialOfGoods materialOfGoods, final int price,
+			final int widthOfGoods, final int lenghtOfGoods) {
 
-    public void setGoodsForHomeType(final GoodsForHomeType goodsForHomeType) {
+		this.goodsForHomeType = goodsForHomeType;
+		this.materialOfGoods = materialOfGoods;
+		this.price = price;
+		this.widthOfGoods = widthOfGoods;
+		this.lenghtOfGoods = lenghtOfGoods;
+	}
 
-        this.goodsForHomeType = goodsForHomeType;
-    }
+	@Override
+	public String toString() {
+		return "GoodsFotHome [goodsForHomeType=" + goodsForHomeType + ", materialOfGoods=" + materialOfGoods
+				+ ", price=" + price + ", widthOfGoods=" + widthOfGoods + ", lenghtOfGoods=" + lenghtOfGoods + "]";
+	}
 
-    public MaterialOfGoods getMaterialOfGoods() {
+	public GoodsForHomeType getGoodsForHomeType() {
 
-        return materialOfGoods;
-    }
+		return goodsForHomeType;
+	}
 
-    public void setMaterialOfGoods(final MaterialOfGoods materialOfGoods) {
+	public void setGoodsForHomeType(final GoodsForHomeType goodsForHomeType) {
 
-        this.materialOfGoods = materialOfGoods;
-    }
+		this.goodsForHomeType = goodsForHomeType;
+	}
 
-    public int getPrice() {
-        return price;
-    }
+	public MaterialOfGoods getMaterialOfGoods() {
 
-    public void setPrice(final int price) {
+		return materialOfGoods;
+	}
 
-        this.price = price;
-    }
+	public void setMaterialOfGoods(final MaterialOfGoods materialOfGoods) {
 
-    public int getWidthOfGoods() {
+		this.materialOfGoods = materialOfGoods;
+	}
 
-        return widthOfGoods;
-    }
+	public int getPrice() {
+		return price;
+	}
 
-    public void setWidthOfGoods(final int widthOfGoods) {
+	public void setPrice(final int price) {
 
-        this.widthOfGoods = widthOfGoods;
-    }
+		this.price = price;
+	}
 
-    public int getLenghtOfGoods() {
+	public int getWidthOfGoods() {
 
-        return lenghtOfGoods;
-    }
+		return widthOfGoods;
+	}
 
-    public void setLenghtOfGoods(final int lengthOfGoods) {
+	public void setWidthOfGoods(final int widthOfGoods) {
 
-        this.lenghtOfGoods = lengthOfGoods;
-    }
+		this.widthOfGoods = widthOfGoods;
+	}
+
+	public int getLenghtOfGoods() {
+
+		return lenghtOfGoods;
+	}
+
+	public void setLenghtOfGoods(final int lengthOfGoods) {
+
+		this.lenghtOfGoods = lengthOfGoods;
+	}
 }
