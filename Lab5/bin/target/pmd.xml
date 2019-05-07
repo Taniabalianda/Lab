@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-04-09T14:39:49.641">
+<file name="C:\Users\Сергей\IdeaProjects\Lab4\src\main\java\ua\lviv\iot\goods\managers\GoodsForHomeManager.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="34" rule="UnusedImports" ruleset="Best Practices" package="ua.lviv.iot.goods.managers" class="GoodsForHomeManager" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'ua.lviv.iot.goods.models'
+</violation>
+<violation beginline="40" endline="40" begincolumn="42" endcolumn="63" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.goods.managers" class="GoodsForHomeManager" method="sortByWidth" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="40" endline="40" begincolumn="68" endcolumn="89" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.goods.managers" class="GoodsForHomeManager" method="sortByWidth" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="52" endline="52" begincolumn="42" endcolumn="64" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.goods.managers" class="GoodsForHomeManager" method="sortByLenght" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="52" endline="52" begincolumn="69" endcolumn="91" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.goods.managers" class="GoodsForHomeManager" method="sortByLenght" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\Сергей\IdeaProjects\Lab4\src\main\java\ua\lviv\iot\goods\managers\Main.java">
+<violation beginline="21" endline="21" begincolumn="18" endcolumn="66" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.goods.managers" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="25" endline="25" begincolumn="18" endcolumn="66" rule="UselessParentheses" ruleset="Code Style" package="ua.lviv.iot.goods.managers" class="Main" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\Сергей\IdeaProjects\Lab4\src\main\java\ua\lviv\iot\goods\models\Decor.java">
+<violation beginline="11" endline="11" begincolumn="35" endcolumn="50" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Decor" method="Decor" variable="goodsForHomeType" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'goodsForHomeType'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="69" endcolumn="83" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Decor" method="Decor" variable="materialOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'materialOfGoods'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="90" endcolumn="94" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Decor" method="Decor" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'price'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="40" endcolumn="52" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Decor" method="Decor" variable="lenghtOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'lenghtOfGoods'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="22" endcolumn="33" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Decor" method="Decor" variable="widthOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'widthOfGoods'.
+</violation>
+</file>
+<file name="C:\Users\Сергей\IdeaProjects\Lab4\src\main\java\ua\lviv\iot\goods\models\Dishes.java">
+<violation beginline="11" endline="11" begincolumn="36" endcolumn="51" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Dishes" method="Dishes" variable="goodsForHomeType" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'goodsForHomeType'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="70" endcolumn="84" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Dishes" method="Dishes" variable="materialOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'materialOfGoods'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="91" endcolumn="95" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Dishes" method="Dishes" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'price'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="41" endcolumn="53" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Dishes" method="Dishes" variable="lenghtOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'lenghtOfGoods'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="23" endcolumn="34" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Dishes" method="Dishes" variable="widthOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'widthOfGoods'.
+</violation>
+</file>
+<file name="C:\Users\Сергей\IdeaProjects\Lab4\src\main\java\ua\lviv\iot\goods\models\Furniture.java">
+<violation beginline="11" endline="11" begincolumn="39" endcolumn="54" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Furniture" method="Furniture" variable="goodsForHomeType" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'goodsForHomeType'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="73" endcolumn="87" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Furniture" method="Furniture" variable="materialOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'materialOfGoods'.
+</violation>
+<violation beginline="11" endline="11" begincolumn="94" endcolumn="98" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Furniture" method="Furniture" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'price'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="44" endcolumn="56" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Furniture" method="Furniture" variable="lenghtOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'lenghtOfGoods'.
+</violation>
+<violation beginline="12" endline="12" begincolumn="26" endcolumn="37" rule="UnusedFormalParameter" ruleset="Best Practices" package="ua.lviv.iot.goods.models" class="Furniture" method="Furniture" variable="widthOfGoods" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused constructor parameters such as 'widthOfGoods'.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,7 @@
+#Fri Apr 19 10:47:43 EEST 2019
+eclipse.preferences.version=1
+org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=8
+org.eclipse.jdt.core.compiler.source=8
+org.eclipse.jdt.core.compiler.release=disabled
+org.eclipse.jdt.core.compiler.compliance=8
