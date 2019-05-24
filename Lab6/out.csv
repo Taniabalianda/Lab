@@ -1,0 +1,10 @@
+goodsForHomeType, materialOfGoods, price, widthOfGoods, lenghtOfGoods
+DECOR, GLASS, 2000, 10, 10
+goodsForHomeType, materialOfGoods, price, widthOfGoods, lenghtOfGoods, type
+null, null, 0, 0, 0, CANDLES
+goodsForHomeType, materialOfGoods, price, widthOfGoods, lenghtOfGoods, type
+null, null, 0, 0, 0, CHIlDRENDISHES
+goodsForHomeType, materialOfGoods, price, widthOfGoods, lenghtOfGoods, type
+null, null, 0, 0, 0, CHAIR
+goodsForHomeType, materialOfGoods, price, widthOfGoods, lenghtOfGoods
+DISHES, STEEl, 6000, 50, 50
